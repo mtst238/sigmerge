@@ -1,0 +1,20 @@
+[project]
+name = "sigmerge"
+version = "0.1.0"
+description = "A decorator that dynamically merges multiple function signatures for better IDE completion."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  { name = "Matsushita Fumiya", email = "philosopy238@gmail.com" }
+]
+keywords = ["signature", "decorator", "merge", "introspection", "python"]
+
+[project.urls]
+Homepage = "https://github.com/mtst238/sigmerge"
+Repository = "https://github.com/mtst238/sigmerge"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
